@@ -30,7 +30,6 @@ public class Server extends JFrame implements TCPConnectionAbcerver{
 
         setVisible(true);
 
-
         try (ServerSocket serverSocket = new ServerSocket(7777)) {
             while (true) {
                 try {

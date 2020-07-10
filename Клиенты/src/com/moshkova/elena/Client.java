@@ -1,7 +1,5 @@
 package com.moshkova.elena;
 
-import org.w3c.dom.ls.LSOutput;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -58,10 +56,9 @@ public class Client extends JFrame implements TCPConnectionAbcerver{
             login.setVisible(true);
 
             setLocationRelativeTo(login);
-            ///if (login.isModal() == false) {
                 nickName = login.nick;
                 IP_ADDR = login.server;
-           // }
+
 
             setVisible(true);
             try {
