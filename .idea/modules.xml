@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/network/network.iml" filepath="$PROJECT_DIR$/network/network.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Клиенты/Клиенты.iml" filepath="$PROJECT_DIR$/Клиенты/Клиенты.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Сервер/Сервер.iml" filepath="$PROJECT_DIR$/Сервер/Сервер.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Чатик.iml" filepath="$PROJECT_DIR$/.idea/Чатик.iml" />
+    </modules>
+  </component>
+</project>
