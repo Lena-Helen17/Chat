@@ -1,5 +1,7 @@
 package com.moshkova.elena;
 
+import org.w3c.dom.ls.LSOutput;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -65,6 +67,7 @@ public class Client extends JFrame implements TCPConnectionAbcerver{
             try {
                 connection = new TCPConnection(this, IP_ADDR, PORT);
                 connection.setNickName(nickName);
+                System.out.println(connection.toString());
             } catch (IOException e) {
                 printMsg("Нет соединения: " + e);
             }
